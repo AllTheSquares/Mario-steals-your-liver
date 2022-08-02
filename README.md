@@ -1,7 +1,9 @@
 # Mario steals your liver
 Silly program that makes the joke video into a real thing. 
 
-This repository contains the contents and the scripts required for this program to work. You can build this program on your own time, or you can probably check branches.
+This branch contains the Windows executable version of the program, as done via PyInstaller. Check main for the source files.
+
+Note that this may have a lot of unnecessary bloat. 
 
 Be warned: Mario truly means it when he says he will get your liver. By all means be sure to save everything important before executing this program (either built or unbuilt), as your computer WILL SHUT DOWN once all is done. LAUNCH AT YOUR OWN RISK!
 
