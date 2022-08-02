@@ -7,8 +7,6 @@ Note that this may have a lot of unnecessary bloat.
 
 Be warned: Mario truly means it when he says he will get your liver. By all means be sure to save everything important before executing this program (either built or unbuilt), as your computer WILL SHUT DOWN once all is done. LAUNCH AT YOUR OWN RISK!
 
-This program was built on Windows for Windows in mind.
-
 Features: 
  > Initial Tkinter popup that looks like a Windows error as seen in the commonly-shared image on the internet.
 
