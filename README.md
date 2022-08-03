@@ -3,7 +3,8 @@ Silly program that makes the joke video into a real thing.
 
 This branch contains the Windows executable version of the program, as done via PyInstaller. Check main for the source files.
 
-Note that this may have a lot of unnecessary bloat. 
+HEADS UP! Windows Defender or other antivirus programs MAY SEE THIS PROGRAM AS A TROJAN. This program is not intended to cause harm to your machine or be malicious in any other way aside from shutting down your computer. This is a false-positive as a result of the compilation method's resulting code. Do not worry if you get a virus notification or if this program is deleted by your antivirus (quarantined or straight up).
+
 
 Be warned: Mario truly means it when he says he will get your liver. By all means be sure to save everything important before executing this program (either built or unbuilt), as your computer WILL SHUT DOWN once all is done. LAUNCH AT YOUR OWN RISK!
 
