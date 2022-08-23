@@ -1,12 +1,15 @@
 # Mario steals your liver
-Silly program that makes the joke video into a real thing. 
+Program built on Python that makes the joke image/video on the internet into a real program.
 
-This branch contains the Windows executable version of the program, as done via PyInstaller. Check main for the source files.
+This brannch contains a Windows executable as was created by PyInstaller. If you want the source Python scripts, please check main.
 
-HEADS UP! Windows Defender or other antivirus programs MAY SEE THIS PROGRAM AS A TROJAN. This program is not intended to cause harm to your machine or be malicious in any other way aside from shutting down your computer. This is a false-positive as a result of the compilation method's resulting code. Do not worry if you get a virus notification or if this program is deleted by your antivirus (quarantined or straight up).
+Warnings:
+- A distorted audio file of the meme in question will play. Please lower your computer's volume. :)
+- This program was created with no intention to startle or scare you, BUT it may do the aforementioned as it does catch you off guard. 
+- **Run this program at your own risk.** This program is not malware, although be warned that Mario will shut down your computer once he steals your liver. Therefore, it is a good idea to save all important files before running this program/script. 
 
-
-Be warned: Mario truly means it when he says he will get your liver. By all means be sure to save everything important before executing this program (either built or unbuilt), as your computer WILL SHUT DOWN once all is done. LAUNCH AT YOUR OWN RISK!
+Notes:
+- Depending on the antivirus/antimalware program you have installed (such as Windows Defender), this executable may be flagged as a trojan. Do not worry if this program is quarantined or deleted by this false-positive. This is probably an issue on PyInstaller's end. 
 
 Features: 
  > Initial Tkinter popup that looks like a Windows error as seen in the commonly-shared image on the internet.
