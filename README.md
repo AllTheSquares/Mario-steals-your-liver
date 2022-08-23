@@ -1,7 +1,7 @@
 # Mario steals your liver
 Program built on Python that makes the joke image/video on the internet into a real program.
 
-This brannch contains a Windows executable as was created by PyInstaller. If you want the source Python scripts, please check main.
+This branch contains a Windows executable as was created by PyInstaller. If you want the source Python scripts, please check main.
 
 Warnings:
 - A distorted audio file of the meme in question will play. Please lower your computer's volume. :)
