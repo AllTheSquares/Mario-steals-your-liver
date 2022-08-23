@@ -1,19 +1,24 @@
 # Mario steals your liver
-Silly program that makes the joke video into a real thing. 
+Program built on Python that makes the joke image/video on the internet into a real program.
 
-This repository contains the contents and the scripts required for this program to work. You can build this program on your own time, or you can probably check branches.
+This branch contains the scripts and files required to run the program with no issues. Check Windows-Executable to run the program without having to do some extra technical work.
 
-Be warned: Mario truly means it when he says he will get your liver. By all means be sure to save everything important before executing this program (either built or unbuilt), as your computer WILL SHUT DOWN once all is done. LAUNCH AT YOUR OWN RISK!
+Warnings:
+- __**This app works best on Windows.**__ It was built, tested, and packaged in Windows, and when tested on Linux (Ubuntu) and macOS, it does not work as well. Feel free to tamper with this script until it works fine on said systems.
+- A distorted audio file of the meme in question will play. Please lower your computer's volume. :)
+- This program was created with no intention to startle or scare you, BUT it may do the aforementioned as it does catch you off guard. 
+- **Run this program at your own risk.** This program is not malware, although be warned that Mario will shut down your computer once he steals your liver. Therefore, it is a good idea to save all important files before running this program/script. 
 
-This program was built on Windows for Windows in mind.
+Notes:
+- Used libraries: tkinter, time, random, tkinter.messagebox, PIL (Image, ImageSequence, ImageTK), Pygame
 
 Features: 
- - Initial Tkinter popup that looks like a Windows error as seen in the commonly-shared image on the internet.
+ > Initial Tkinter popup that looks like a Windows error as seen in the commonly-shared image on the internet.
 
- - You cannot close out of the program without using Task Manager. 
+ > You cannot close out of the program without using Task Manager. 
 
- - The cancel button doesn't work. You have no other choice.
+ > The cancel button doesn't work. You have no other choice.
  
- - Clicking the OK button will start a random timer. It will take up to a minute for the main payload to execute.
+ > Clicking the OK button will start a random timer. It will take up to a minute for the main payload to execute.
  
- - Your computer will shut down at the conclusion of the payload. 
+ > Your computer will shut down at the conclusion of the payload. 
