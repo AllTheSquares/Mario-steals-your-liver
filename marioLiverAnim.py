@@ -11,7 +11,7 @@ def standing_mario(): # Swaps initial image of Mario kicking a hole through your
     global marioStand
 
     # Sets up the standing pose for Mario to be displayed after the kick is removed
-    marioStand = tk.PhotoImage(file = 'Contents\marioStand.png') # Pulls image from contents folder
+    marioStand = tk.PhotoImage(file = './Contents/marioStand.png') # Pulls image from contents folder
     marioStand = marioStand.zoom(2,2) # Enlargens image
 
     canvas.delete(Mario) # Deletes original instance of Mario (kicking pose)
@@ -24,7 +24,7 @@ def hand_zoom():
     handCanvas = tk.Canvas(handFrame, width = display_width, height = display_height)
     handCanvas.pack()
 
-    img = Image.open("Contents\hand.gif") 
+    img = Image.open("./Contents/hand.gif") 
     hand = tk.Label(handFrame) # Creates a label that will refresh per frame of the GIF.
     handCanvas.create_window(display_width/2.5, display_height/2.5, window = hand) # Places the GIF right near Mario's head as per the original meme video. 
     handFrame.attributes("-topmost", 'true')
@@ -47,7 +47,7 @@ def start_anim(): # called by the original script (liver.py) after a random amou
 
     # Pygame Audio (plays the audio from the original video)
     mixer.init() 
-    mixer.music.load("Contents\MarioLiver.wav")
+    mixer.music.load("./Contents/MarioLiver.wav")
     mixer.music.play(-1)
 
 
@@ -69,8 +69,8 @@ def start_anim(): # called by the original script (liver.py) after a random amou
     # Specifies height and width of Canvas
 
     # Original source images found on the internet (made transparent with remove.bg)
-    hole = tk.PhotoImage(file = "Contents\hole.png")
-    marioKick = tk.PhotoImage(file = "Contents\marioKick.png")
+    hole = tk.PhotoImage(file = "./Contents/hole.png")
+    marioKick = tk.PhotoImage(file = "./Contents/marioKick.png")
 
     # Adds the hole image AND Mario himself
     canvas = tk.Canvas(root, width = root.winfo_screenwidth(), height = root.winfo_screenheight())

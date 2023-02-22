@@ -41,7 +41,7 @@ root.eval('tk::PlaceWindow . center')
 root.geometry("300x125")
 root.resizable(False, False)
 root.title("")
-root.iconbitmap('Contents\mario.ico')
+root.iconbitmap('./Contents/mario.ico')
 
 canvas = tk.Canvas(root, width = 300, height = 125)
 
@@ -49,7 +49,7 @@ canvas = tk.Canvas(root, width = 300, height = 125)
 threat = tk.Label(root, text = "3 Days until Mario steals your liver!", bg="white")
 okbutton = tk.Button(root, text="       OK       ", command = ok_command)
 Cancel_Button = tk.Button(root, text="    Cancel    ",command = cancel_command)
-mario = tk.PhotoImage(file = "Contents\marioHead.png")
+mario = tk.PhotoImage(file = "./Contents/marioHead.png")
 
 buttonY = 118
 
